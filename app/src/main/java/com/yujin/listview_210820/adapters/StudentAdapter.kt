@@ -26,11 +26,6 @@ class StudentAdapter (
 
         val row = tempRow!!
 
-
-//        row가 결과로 (화면에) 나가기 전에 => 추가 가공을 거치고 나가게 하자.
-
-//        mList의 학생중 위치에 맞는 데이터를 뽑아서 => row 내부의 텍스트뷰에 문구로 반영하자.
-
         val data = mList[position]
 
         val nameTxt = row.findViewById<TextView>(R.id.nameTxt)
